@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="stely.css">
+<body>
+    <div class="fan">
+    <main class="main-card">
+         <h1>My Daily Tasks</h1>
+        <p>Manage your daily work </p>
+        <form onsubmit="addTodo(event)">
+            <input type="text" id="todoInput" placeholder="Add a new task" required>
+             <div class="d-b">
+            <button type="submit" id="but" >Add Task</button>
+            </form>
+            
+        </div>
+        </main>
+         <ul id="todoList"></ul>
+    
+     
+        
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="web.js"></script>
+</body>
+</html>
